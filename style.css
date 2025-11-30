@@ -200,6 +200,10 @@ button {
         border-radius: 20px 20px;
     }
 
+    h1 {
+        font-size: 1em;
+    }
+
     body > div > div:first-child > div:first-of-type {
         max-width: 85%;
         margin: 20px auto;
@@ -211,15 +215,15 @@ button {
     }
  
     body > div > div:first-child > div:nth-child(2) > div:last-child {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     body > div > div:first-child > div:nth-child(3) {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     body > div > div:last-child {
