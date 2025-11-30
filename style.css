@@ -259,7 +259,6 @@ button {
     body > div > div:last-child > div:nth-child(5) > div:last-child {
         display: flex;
         align-items: center;
-        background-color: red;
     }
 
     button {
