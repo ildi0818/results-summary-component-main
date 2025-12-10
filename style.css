@@ -110,9 +110,9 @@ h3 {
 
 /* white container */
 
-body > div > div:last-child {
-    /* background-color: hsl(0, 0%, 100%); */
-}
+/*  body > div > div:last-child {
+    background-color: hsl(0, 0%, 100%); 
+} */
 
 body > div > div:last-of-type > div:nth-child(2),
 body > div > div:last-of-type > div:nth-child(3),

@@ -29,7 +29,7 @@
     <div>
       <h3>Summary</h3>
       <div>
-        <div>
+        <div id="lista">
           <img src="assets/images/icon-reaction.svg" alt="reaction">
           <div>Reaction</div>
         </div>
@@ -61,5 +61,24 @@
     </div>
   </div>
   
+  <!-- <script>
+    fetch("data.json")
+    .then(res => res.json())
+    .then(adatok => {
+      const lista = document.getElementById("lista");
+      adatok.forEach(elem => {
+        const div = document.createElement("div");
+                div.className = "item";
+
+                div.innerHTML = `
+                    <img src="${elem.icon}" alt="${elem.category}">
+                    <strong>${elem.category}</strong>: ${elem.score}
+                `;
+
+                lista.appendChild(div);
+            });
+        })
+        .catch(err => console.error("Hiba:", err));
+  </script> -->
 </body>
 </html>
