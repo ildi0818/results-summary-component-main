@@ -184,7 +184,7 @@ button {
 @media screen and (min-width: 376px) {
 
     body > div {
-        width: 100vw;
+        width: 75%;
         min-height: 270px;
         display: flex;
         flex-direction: row;
@@ -194,7 +194,7 @@ button {
 
     /* purple container */
     body > div > div:first-child {
-        width: 35vw; 
+        width: 50%; 
         height: 100%;
         padding: 5% 3%;
         border-radius: 20px 20px;
@@ -227,7 +227,7 @@ button {
     }
 
     body > div > div:last-child {
-        width: 35vw;
+        width: 50%;
         height: 100%;
         background-color: hsl(0, 0%, 100%);
         border-radius: 0 20px 20px 0;
